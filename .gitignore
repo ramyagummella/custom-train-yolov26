@@ -1,0 +1,51 @@
+__pycache__/
+
+# Python bytecode and tooling caches
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Jupyter and IDE files
+.ipynb_checkpoints/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# PyTorch, YOLO, and computer-vision training outputs
+runs/
+weights/
+checkpoints/
+outputs/
+results/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+
+# Experiment tracking and visualization logs
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+*.log
+
+# Local datasets and generated caches (uncomment when datasets are not committed)
+# dataset/
+# data/

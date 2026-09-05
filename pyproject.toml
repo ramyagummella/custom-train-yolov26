@@ -1,0 +1,18 @@
+[project]
+name = "yolo-upgrade"
+version = "0.1.0"
+description = "Upgrade the course by training new YOLO26s"
+authors = [
+    {name = "Ramya Devi Gummella",email = "ramyadevi.gummella@gmail.com"}
+]
+requires-python = ">=3.14,<4.0.0"
+dependencies = [
+    "numpy (>=2.5.2,<3.0.0)",
+    "pandas (>=3.0.5,<4.0.0)",
+    "matplotlib (>=3.11.1,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
