@@ -1,15 +1,16 @@
 [project]
-name = "yolo-upgrade"
+name = "custom-yolov26"
 version = "0.1.0"
-description = "Upgrade the course by training new YOLO26s"
+description = ""
 authors = [
     {name = "Ramya Devi Gummella",email = "ramyadevi.gummella@gmail.com"}
 ]
-requires-python = ">=3.14,<4.0.0"
+requires-python = ">=3.13,<4.0.0"
 dependencies = [
     "numpy (>=2.5.2,<3.0.0)",
     "pandas (>=3.0.5,<4.0.0)",
-    "matplotlib (>=3.11.1,<4.0.0)"
+    "matplotlib (>=3.11.1,<4.0.0)",
+    "ultralytics (>=8.4.141,<9.0.0)"
 ]
 
 
